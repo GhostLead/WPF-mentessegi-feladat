@@ -108,12 +108,6 @@ namespace NevGenerator
                 string csaladnev = "";
                 string utonev = "";
 
-                if (slNevSzam.Value != Convert.ToUInt32(txtNevSzam.Text))
-                {
-                    txtNevSzam.Text = slNevSzam.Value.ToString();
-                }
-
-
                 for (int i = 0; i < slNevSzam.Value; i++)
                 {
                     int randomNumber = rand.Next(0, csaladNevek.Count);
